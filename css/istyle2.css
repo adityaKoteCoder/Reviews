@@ -1,0 +1,23 @@
+#stat
+{   
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#stat td, #set th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* #stat tr:nth-child(even){background-color: #f2f2f2;} */
+  
+  #stat tr:hover {background-color: #ddd;}
+  
+  #stat th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: skyblue;
+    color: white;
+  }
